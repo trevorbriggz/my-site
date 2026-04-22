@@ -1,0 +1,6 @@
+git add .
+git commit -m "whatever message"
+git push
+
+
+git pull origin main
