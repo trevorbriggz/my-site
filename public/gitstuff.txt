@@ -4,3 +4,132 @@ git push
 
 
 git pull origin main
+
+
+
+
+for chatgpt
+so I ran npm run build, this is what the dist/index.html looks like
+
+```html
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>trevor briggs dot com</title>
+    <script type="module" crossorigin src="/assets/index-gqup0ud9.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-_cg3B6Pk.css">
+  </head>
+  <body>
+    <div id="root"></div>
+
+
+    <noscript>
+      <div class="main">
+        <img src="/images/buttons/melogo.png" class="logo" alt="a death metal logo of my name">
+        <img src="/images/buttons/mepolaroid1.png" class="polaroid1" alt="a photoshopped polaroid of me">
+        <p class="outline" style="text-align: center;">hey! this is my personal site for all my things, hobbies, work, etc. below is a description of the directory so you know where to go</p>
+        <br>
+
+        <div class="center">
+          <span>/ <span class="currentlocation">home</span><span class="outline">: you are here</span></span>
+          
+          <div>
+            <input id="4" type="checkbox" class="box">
+            <label for="4">+ </label>
+            <a href="about.html">about</a>
+            <span class="outline">: a bio thing / about me / why / etc</span>
+              <ul class="cool">
+                <li class="sub-item">
+                  <span>/ <a href="/updates.html">updates</a></span>
+                  <span>site updates tracked here</span>
+                </li>
+              </ul>
+          </div>
+          <div>
+          <input id="2" type="checkbox" class="box">
+          <label for="2">+ </label>
+          <a href="hobbies.html">hobbies</a>
+          <span class="outline">: self explanatory + work experience</span>
+            <ul class="cool">
+              <li class="sub-item">
+                <span>/ <a href="/hobbies/photo.html">photo</a></span>
+                <span>my photo works</span>
+              </li>
+              <li class="sub-item">
+                <span>/ <a href="/hobbies/video.html">video</a></span>
+                <span>^ video ^</span>
+              </li>
+              <li class="sub-item">
+                <span>/ <a href="/hobbies/cars.html">cars/mechanics</a></span>
+                <span>^ strange addiction</span>
+              </li>
+              <li class="sub-item">
+                <span>/ <a href="/hobbies/music.html">music</a></span>
+                <span>^ music</span>
+              </li>
+              <li class="sub-item">
+                <span>/ <a href="/hobbies/graphics.html">graphics</a></span>
+                <span>^ graphics/ design works</span>
+              </li>
+            </ul>
+            </div>
+  		    <span>/ <a href="contact.html">contact</a><span class="outline">: contact info & links to places i'm active</span></span>
+          
+        </div>
+      
+        
+      <br>
+      <p>i would like to eventually have this be my main ecosystem, but that will take time. i will do my best to keep this well updated with what i am up to, photos, music, whatever etc</p>
+      <br>
+      <hr>
+      <br>
+      <p>notes:</p>
+      <p>this site functions totally without javascript, its only there for fun animation things. this is not intended to be mobile friendly nor do i plan for it to be - best viewing experience would be in 800x600</p>
+      <br>
+      <p>- unclicked links will be <b>bold</b> and <u>underlined</u>, <a href="example.html">example</a></p>
+      <p>- once navigated to, they will then be <b>bold</b> and gray <u class="example">example</u></p>
+      <p>- where you are currently will be <s>bold</s> and <span class="currentlocation">green</span></p>
+      <p>- you can click the + next to sections to see subsections</p>
+      <p>- on all other pages the directory will live below the footer, eventually</p>
+      <p style="text-indent: 1em;">i would like to put it to the left of the body, but thats a wip</p>
+      <p>- anything labeled wip is a work in progress, i wanted to get this live</p>
+      <br>
+      <hr>
+      <br>
+      <footer class="footer">
+        
+          <a href="https://msx.horse" class="aimg" target="_blank"><img src="/images/buttons/msx8831.gif" alt="88x31 pixel button: msx.horse, home of em"></a> 
+          <img src="/images/buttons/csbanner.gif" alt="88x31 pixel button: a csgo (shooter game) montage button">
+          <a href="https://code.visualstudio.com/" class="aimg" target="_blank"><img src="/images/buttons/vscbutton.gif" alt="88x31 pixel button: made with visual studio code"></a>
+          <img src="/images/buttons/ps2.gif" alt="88x31 pixel button: win a free ps2">
+          <a href="https://en.wikipedia.org/wiki/Microsoft_Windows" class="aimg" target="_blank"><img src="/images/buttons/windows.gif" alt="88x31 pixel button: made with Windows"></a>
+          <img src="/images/buttons/button_webp.png" alt="88x31 pixel button: no WEBP! just use PNG!">
+          <a href="https://twelvemen.neocities.org/index.html" class="aimg" target="_blank"><img src="https://twelvemen.neocities.org/12men.gif"></a>
+          <a href="https://www.youtube.com/watch?v=FOebMAx-GVI" class="aimg" target="_blank"><img src="https://allsop-lancaster.com/knf/img/button.gif"></a>
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="aimg" target="_blank"><img src="/images/buttons/viruses.gif"></a>
+        </footer>
+
+      <br>
+      <hr>
+      <br>
+
+      <div class="sidenav">
+        directory:/<span class="currentlocation">home</span>
+        /<a href="/about.html">about</a>
+        /<a href="/hobbies.html">hobbies</a>
+        /<a href="/contact.html">contact</a>
+      </div>
+      <br>
+      <hr>
+    </div>
+
+
+      
+    </noscript>
+  </body>
+</html>
+```
+
+I find it interesting how when i disable javascript in the dev tools everything works fine (on the cloudflare hosted page thats live online)
