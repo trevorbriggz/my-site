@@ -38,6 +38,7 @@ body {
     color: white;
 
     min-height: 100vh;
+    min-height: 100dvh;
 
     -webkit-font-smoothing: antialiased;
 }
@@ -81,7 +82,7 @@ input[type="checkbox" i] {
 }
 
 img {
-    max-width: 100%;
+    max-width: 800px;
 }
 
 label {
