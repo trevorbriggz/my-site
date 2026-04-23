@@ -82,7 +82,9 @@ input[type="checkbox" i] {
 }
 
 img {
-    max-width: 800px;
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 label {
@@ -242,6 +244,7 @@ p {
 .logo {
     position: relative;
     z-index: 2;
+    width: 500px;
 }
 
 .media {
