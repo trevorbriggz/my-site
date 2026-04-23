@@ -7,7 +7,7 @@ import nametag from "/images/tags and other/gobbles nametag.png";
 function updates() {
     return (
         <div>
-            <h1><img src={example} className="banner"/></h1>
+            <h1 className='center'><img src={example} className="banner"/></h1>
             <div className="center" style={{textAlign: "center"}}>
                 <img src={duckboy} style={{width: "300px"}}/>
                 <br/>

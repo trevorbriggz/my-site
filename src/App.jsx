@@ -13,6 +13,7 @@ import Music from "./Music.jsx";
 import Photo from "./Photo.jsx";
 import Video from "./Video.jsx";
 import NotFound from "./NotFound.jsx";
+import ScrollToTop from "./ScrollToTop.jsx"
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <div id="root"></div>
         <div className="main">
           <BrowserRouter>
+          <ScrollToTop />
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/updates" element={<Updates />} />

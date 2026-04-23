@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Music() {
     return (
         <div>
-            <h1><img src="/images/banners/music.gif" className="banner"/></h1>
+            <h1 className='center'><img src="/images/banners/music.gif" className="banner"/></h1>
             <br/>
             <p>since i can recall i have been around music, my mom would always be listening to music or singing. she has always been in cover bands so i'm sure that
                 has some subconcious doings haha 

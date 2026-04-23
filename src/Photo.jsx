@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Photo() {
     return (
         <div>
-            <h1><img src="/images/banners/photo.gif" className="banner"/></h1>
+            <h1 className='center'><img src="/images/banners/photo.gif" className="banner"/></h1>
         <br/>
         <p>starting in highschool, my interest in photo was created because of a graphic design class i attended. now i spend way too much time and money on equipment and learning. for a while my main interest was
           abandoned buildings (still really enjoy these spaces but it's hard to justify risking getting in trouble the older i get, sadly i'm not a kid anymore) now lately it's been motorsports (drifting)

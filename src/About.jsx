@@ -6,7 +6,7 @@ import nametag from "/images/tags and other/me namtag.png";
 function updates() {
     return (
         <div>
-          <h1><img src={aboutbanner} className="banner"/></h1>
+          <h1 className='center'><img src={aboutbanner} className="banner"/></h1>
           <img src={nametag} className="nametag1"/>
           <p>i'm <b>trevor</b> <i>(he/him, 1998/05/21)</i> born in attica ny, raised there and then williamsville ny til now</p>
         

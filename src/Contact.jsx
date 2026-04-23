@@ -5,7 +5,7 @@ import thank from "/images/tags and other/thank you.png";
 function updates() {
     return (
         <div>
-            <h1><img src={contact} class="banner"/></h1>
+            <h1 className='center'><img src={contact} class="banner"/></h1>
 		    <p>for now you can find me at quite a few spots but if you wish to keep it professional please send me an email @</p>
             <h2>me@trevorbrig{/*help*/}.gs</h2>
             <br/>

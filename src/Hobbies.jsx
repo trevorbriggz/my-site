@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function updates() {
     return (
         <div>
-            <h1><img src="/images/banners/hobbies.gif" className="banner"/></h1>
+            <h1 className='center'><img src="/images/banners/hobbies.gif" className="banner"/></h1>
             <p style={{textAlign: "center"}}>my work/experience/fun</p>
             <br/>
             <p>titles are clickable, will lead to more indepth pages, each has a little blurb as an overview - i guess this will act as a sort of blog as i will actively update this</p>

@@ -5,7 +5,7 @@ import cars from "/images/banners/cars.gif";
 function Cars() {
     return (
         <div>
-            <h1><img src={cars} class="banner"/></h1>
+            <h1 className='center'><img src={cars} class="banner"/></h1>
             <br/>
             <p>in 2017 youtube recommended me <Link to="https://www.youtube.com/watch?v=O3yR0CYB75o">delivering pizza in a drift car</Link>, a video of two goofballs driving around
                 in some awesome looking car (nissan 240sx s13) being goofy dudes and having a good time. i fell in love, i loved their dynamic and how you felt like one of the

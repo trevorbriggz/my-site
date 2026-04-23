@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Graphics() {
     return (
         <div>
-            <h1><img src="/imagesgit/banners/graphics.gif" className="banner"/></h1>
+            <h1 className='center'><img src="/images/banners/graphics.gif" className="banner"/></h1>
         <br/>
         <p>if you want to do music online, you need to be able to make art for yourself (or pay someone) and i don't have money to pay someone, so here we are</p>
         <br/>

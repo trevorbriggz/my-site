@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Video() {
     return (
         <div>
-            <h1><img src="/images/banners/video.gif" className="banner"/></h1>
+            <h1 className='center'><img src="/images/banners/video.gif" className="banner"/></h1>
             <br/>
             <p>this started in childhood, watching youtube since its birth pretty much up til today. big inspirations come from <Link to="https://www.youtube.com/@sadworldonline">sadworld</Link>, <Link to="https://www.youtube.com/@noriyaro">noriyaro</Link> and <Link to="https://en.wikipedia.org/wiki/YouTube_Poop">youtube poop</Link> to name just a few good ones. eventually <Link to="https://www.youtube.com/@trevorbriggz">my tinkering</Link> let to me getting a job at <Link to="https://www.youtube.com/@bigindiandriftpit">big indian drift pit</Link> / <Link to="https://www.youtube.com/@BigIndianMotorsports">big indian motorsports</Link> doing most of their social media stuff. sadly good things don't last forever though
             </p>
