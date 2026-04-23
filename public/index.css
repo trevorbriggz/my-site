@@ -1,0 +1,310 @@
+@font-face {font-family: hack; src: url("/data/font/hack-regular.woff") format("woff");}
+@font-face {font-family: hack; src: url("/data/font/hack-bold.woff") format("woff"); font-weight:bold;}
+@font-face {font-family: hack; src: url("/data/font/hack-italic.woff") format("woff"); font-style: oblique;}
+@font-face {font-family: sharppc3k; src: url("/data/font/sharppc3k.woff") format("woff");}
+@font-face {font-family: ibmcga2y; src: url("/data/font/ibmcga2y.woff") format("woff");}
+@font-face {font-family: ibmvga; src: url("/data/font/FSEX300.woff") format("woff");}
+@font-face {font-family: elegant; src: url("/data/font/elegant.woff") format("woff");}
+@font-face {font-family: 'urwdin'; src: url("/data/font/urwdin.woff") format("woff");}
+@font-face {font-family: 'sb'; src: url("/data/font/sb.woff") format("woff");}
+@font-face {font-family: 'oceanside'; src: url("/data/font/oceanside.woff") format("woff");}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: underline;
+    color: inherit;
+}
+
+a:visited {
+    color: gray;
+}
+
+body {
+    margin: 0;
+    background: #181818 url("/images/buttons/site_background.gif") center top repeat-y;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+
+    color: white;
+
+    min-height: 100vh;
+    min-height: 100dvh;
+
+    -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+    padding-top: 25px;
+}
+
+h2 {
+    display: grid;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+html {
+    scrollbar-gutter: stable;
+}
+
+input:checked ~ ul.cool {max-height:100%; margin:0px 0px 9px 0px;}
+
+input {
+    display: none;
+}
+input:not([type="image" i]) {
+    box-sizing: border-box;
+}
+
+input[type="checkbox" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 3px 4px;
+    padding: initial;
+    border: initial;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+label {
+    cursor: pointer;
+    user-select: none;
+}
+
+li {margin: 0; padding: 0; list-style-type: none;}
+ul {margin:6px 0px 3px 0px; padding-left: 10px;}
+ul li {margin:0px; font-size:12px;}
+
+
+p {
+    position: relative;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    z-index: 2;
+}
+
+.main {
+    position: relative;
+    width: 500px;
+    margin: 0 auto;
+    display: block;
+}
+
+.banner {
+    width: 400px;
+}
+
+.gifshead {
+    width: 200px;
+}
+
+.gifshead:hover .lilstill{
+    display: none;
+
+}
+
+.gifshead:hover .lilbanner{
+    display: inline;
+
+}
+
+.lilstill {
+    width: 200px;
+}
+
+.lilbanner {
+    width: 200px;
+    display: none;
+}
+
+
+.center {
+    position: relative;
+    display: grid;
+    justify-content: center;
+    flex-wrap: wrap;
+    z-index: 2;
+}
+
+.cool {
+    margin: 0px;
+    max-height: 0px;
+    overflow: hidden;
+}
+
+.currentlocation {
+    color: greenyellow;
+}
+
+.example {
+    font-weight: bold;
+    color: gray;
+}
+
+.footer {
+    width: 500px;
+     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+
+.footer a.aimg {
+    display: inline-block;
+    flex-shrink: 0;
+    width: 88px;
+    height: 31px;
+}
+
+.footer a.aimg img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.footer img {
+    display: block;
+    flex-shrink: 0;
+    width: 88px;
+    height: 31px;
+}
+
+.lightbox {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8); /* Darkens the background */
+}
+
+.lightbox .content img {
+    max-width: 780px;
+    max-height: 57cd site0px;
+
+    /* These ensure the aspect ratio is preserved */
+    width: auto;
+    height: auto;
+
+    /* Web 1.0 Aesthetic Additions */
+    display: block;
+    margin: 0 auto;
+}
+
+/* Show the lightbox when it is the URL target */
+.lightbox:target {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* This invisible link lets you click 'away' from the image to close it */
+.close-area {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: default;
+}
+
+.toggle {
+    display: none;
+}
+
+/* Show the lightbox only when the checkbox is checked */
+.toggle:checked + .lightbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    position: relative;
+    z-index: 2;
+    width: 500px;
+}
+
+.media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.media img {
+    width: 150px;
+    height: auto;
+    max-height: 580px;
+    display: block;
+}
+
+.outline {
+    text-shadow:
+       -1px -1px 0 #000,
+        1px -1px 0 #000,
+       -1px  1px 0 #000,
+        1px  1px 0 #000,
+       -2px -2px 0 #000,
+        2px -2px 0 #000,
+       -2px  2px 0 #000,
+        2px  2px 0 #000,
+       -3px -3px 0 #000,
+        3px -3px 0 #000,
+       -3px  3px 0 #000,
+        3px  3px 0 #000;
+    
+}
+
+.polaroid1 {
+    position: absolute;
+    top: 160px;
+    left: 367px;
+    transform: rotate(10deg);
+    width: 250px;
+    z-index: 1;
+}
+
+.nametag1 {
+    position: absolute;
+    top: 200px;
+    left: 440px;
+    transform: rotate(10deg);
+    width: 200px;
+    z-index: 0;
+}
+
+.sidenav {
+    display: flex;
+    justify-content: center;
+}
+
+.sub-item {
+    left: 300px;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    align-items: start;
+}
